@@ -1,6 +1,6 @@
 {% set version = "2018.0.3" %}
 {% set vtag = "2018_U3" %}
-{% set args = " --build-args='stdver=c++11 -march=native -mtune=native -DTBB_USE_GCC_BUILTINS=1 -D__TBB_64BIT_ATOMICS=0' --make-tool="make -j4" --install-libs --install-devel --install-docs" %}
+{% set args = " --build-args='stdver=c++11 -march=native -mtune=native -DTBB_USE_GCC_BUILTINS=1 -D__TBB_64BIT_ATOMICS=0' --make-tool='make -j4' --install-libs --install-devel --install-docs" %}
 #  no --install-python yet, it will be a separate package
 
 package:
